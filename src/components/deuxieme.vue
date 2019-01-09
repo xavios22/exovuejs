@@ -1,8 +1,7 @@
 <template>
     <div class="edit">
         
-        <input v-model="title">
-        
+        <input v-model="title" >
         <h1 id="texte" > <i id="pencil" class="fas fa-pencil-alt"></i> {{title}}</h1>
         
     </div>
