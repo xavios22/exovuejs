@@ -1,9 +1,14 @@
 <template>
     <div class="edit">
-        
-        <input v-model="title" >
-        <h1 id="texte" > <i id="pencil" class="fas fa-pencil-alt"></i> {{title}}</h1>
-        
+
+        <div v-if="editing == false">
+            <span @click="editing =!editing"><i id="pencil" class="fas fa-pencil-alt"></i> {{title}}</span>
+        </div>
+        <div v-else>
+            <span>{{title}}</span><br>
+            <input v-model="title" type="text" @keyup.enter="editing= !editing" >
+        </div>
+          
     </div>
 </template>
 
@@ -11,6 +16,7 @@
 export default {
     data:function(){
         return{
+            editing:false,
             title:'Edit me.'
         }
     }
