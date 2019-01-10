@@ -11,7 +11,8 @@
     "@fortawesome/fontawesome-free": "^5.6.3",
     "bootstrap": "^4.2.1",
     "bootstrap-vue": "^2.0.0-rc.11",
-    "vue": "^2.5.21"
+    "vue": "^2.5.21",
+    "vue-currency-filter": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",

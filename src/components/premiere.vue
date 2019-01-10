@@ -33,8 +33,8 @@ module.exports= {
 <style lang="scss">
 .texto{
     
-    background-color: red;
-    color: dimgray;
+    background-color: rgba(211, 53, 53, 0.829);
+    color: rgba(168, 167, 167, 0.801);
     height:100px;
 	line-height:100px;
 	text-align:center;
